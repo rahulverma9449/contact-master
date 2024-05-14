@@ -1,0 +1,163 @@
+/* Global styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg");
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the sign-in form */
+.container {
+  width: 300px;
+  perspective: 1000px;
+  /* Adds perspective for 3D effect */
+}
+
+/* Card style for the sign-in form */
+.card {
+  /* background-color: #fff; */
+  background-image: url("https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg");
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d; /* Ensures child elements maintain 3D positioning */
+  transform: rotateY(20deg) rotateX(10deg); /* Initial 3D rotation */
+  transition: transform 0.5s; /* Smooth transition on hover */
+}
+
+/* Hover effect to reset card rotation */
+.card:hover {
+  transform: rotateY(0deg) rotateX(0deg); /* Reset rotation on hover */
+}
+
+/* Heading style */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields and button styling */
+input[type="text"],
+input[type="password"],
+button {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 300px;
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+.card {
+  background-image: url("https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg");
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  transform: rotateY(20deg) rotateX(10deg);
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: rotateY(0deg) rotateX(0deg);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.forgot {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+.website {
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: #007bff;
+}
+
+.website:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.image {
+  width: 100%;
+}
